@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || 'https://incapacidades-test.onrender.com'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE || 'https://backend-jg7g.onrender.com'
 
 export default function IncapacityUploader() {
   const [cedula, setCedula] = useState('')
